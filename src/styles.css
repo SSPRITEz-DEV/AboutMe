@@ -1,3 +1,46 @@
-.helloworld{
+body{
+    background-color: cadetblue;
+    font-family: monospace;
     font-size: 2rem;
+    color: wheat;
+
+    /* border: solid 1px red; */
 }
+.helloworld{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+
+    font-size: 3rem;
+    color: white;
+    /* border: solid 2px red; */
+}
+.header{
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+
+    border: solid 2px white;
+}
+.logo{
+    /* border: solid 2px chartreuse; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: black;
+    width: 10vw;
+}
+
+.nav-link{
+    /* border: solid 2px chartreuse; */
+    display: flex;
+    justify-content: space-around;
+
+    /* text-underline-offset: none; */
+    width: 20vw;
+    color: black;
+}
+
