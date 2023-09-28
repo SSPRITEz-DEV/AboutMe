@@ -5,7 +5,14 @@ body{
     color: wheat;
 
     /* border: solid 1px red; */
+    margin: 1vw 5vw 1vw 5vw;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .helloworld{
     display: flex;
     justify-content: center;
@@ -17,13 +24,15 @@ body{
     color: white;
     /* border: solid 2px red; */
 }
+
 .header{
-    background-color: wheat;
+    /* background-color: wheat; */
     display: flex;
     justify-content: space-between;
 
     border: solid 2px white;
 }
+
 .logo{
     /* border: solid 2px chartreuse; */
     display: flex;
@@ -39,8 +48,11 @@ body{
     display: flex;
     justify-content: space-around;
 
-    /* text-underline-offset: none; */
-    width: 20vw;
+    text-underline-offset: none;
+    width: 30vw;
     color: black;
+}
+.nav-link li{
+    list-style-type: none; 
 }
 
