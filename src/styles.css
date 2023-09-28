@@ -29,8 +29,9 @@ a {
     /* background-color: wheat; */
     display: flex;
     justify-content: space-between;
-
+    border-radius: 0.5rem;
     border: solid 2px white;
+    padding: 0px 10px 0px;
 }
 
 .logo{
